@@ -332,10 +332,10 @@ ease;
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 16px;
-  }
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 16px;
+    }
 
   
 }
@@ -926,4 +926,5 @@ width: 123px;
   color: #ff79b6;
   cursor: default;
   transition: color 0.3s ease;
+
 }
